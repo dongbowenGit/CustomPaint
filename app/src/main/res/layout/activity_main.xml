@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.homework0510.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/btn_lanse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="蓝色"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:id="@+id/btn_huangse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="黄色"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+            android:id="@+id/btn_jiacu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="刷子"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            />
+        <Button
+                     android:id="@+id/btn_resume"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:text="重新画图"
+                     android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            />
+
+                <Button
+                     android:id="@+id/btn_save"
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:text="保存图片"
+                    android:layout_weight="1"
+                    android:layout_marginRight="10dp"
+                    />
+    </LinearLayout>
+    <ImageView
+             android:id="@+id/iv_canvas"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent" />
+</LinearLayout>
